@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: #242222;
+  }
+  
+  /* ..................................NAVBAR STYLING START........................... */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    background-color: #2b3433;
+  }
+  
+  .logo_anchor {
+    text-decoration: none;
+    color: #ffb347;
+    font-size: 30px;
+    margin-left: 15px;
+    
+  }
+  .logo_anchor:hover{
+    /* color: red; */
+    text-shadow: 1px 0px 1px  #e28222;
+  
+  }
+  .left-container {
+      /* margin-left: 20vw; */
+      width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin: 10px; */
+    /* padding: 0px 10px; */
+  }
+  
+  input {
+    padding: 5px 15px;
+    background-color: #2b3433;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  ::placeholder {
+    color: #aca6a6;
+  }
+  .search_button {
+    padding: 4px 0px;
+    background-color: #009de1;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+  }
+  .search_button:hover{
+    /* color: red; */
+    background-color: red;
+  }
+  .sign_in_button_div {
+    margin-left: 10px;
+  
+    width: 60px;
+  }
+  .login_icon_anchor{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 255, 21, 0.349);
+    display: flex;
+  align-items: center;
+  }
+  .login_icon_anchor:hover{
+    box-shadow: 2px 2px 2px red;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  }
+  
+  
+  /* ..................................NAVBAR STYLING END............................. */
+  
+  /* ..................................TELEGRAM BUTTON STYLING START................... */
+  
+  .telegram {
+    text-align: center;
+  }
+  .telegram_button {
+    background-color: #009de1;
+    padding: 10px 40px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: #009de1;
+  }
+  .telegram_anchor {
+    text-decoration: none;
+    color: white;
+  }
+  .telegram_anchor:hover{
+    color: red;
+    font-size: 15px;
+  }
+  
+  /* ..................................TELEGRAM BUTTON STYLING END..................... */
+  
+  /* ...................................TOP LIST STYLING START............................ */
+  
+  .top_list_div {
+    display: flex;
+    justify-content: center;
+  }
+  .top_list_li {
+    color: white;
+    list-style: none;
+    float: left;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: maroon;
+    border-radius: 15px;
+  }
+  .top_list_anchor {
+    text-decoration: none;
+    color: white;
+  }
+  .top_list_anchor:hover{
+    color: #1dbdf3;
+  }
+  
+  /* ...................................TOP LIST STYLING END.............................. */
+
+  /* ....................................ABOUT US STYLING START........................... */
+
+  .aboutus_div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+  }
+.aboutus_h2{
+color: white;
+margin-top: 50px;
+}
+.green_anchor{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 80px;
+    background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.aboutus_p{
+    text-align: center;
+    
+    margin-top: 20px;
+    color: white;
+}
+
+  /* ....................................ABOUT US STYLING END.............................. */
+
+
+  /* .....................................FOOTER STYLING START................................ */
+
+.main_footer {
+    margin-top: 50px;
+  }
+  
+  .footer_description_div {
+    text-align: center;
+  }
+  .footer_h3 {
+    color: white;
+  }
+  .footer_paragraph {
+    margin: 20px;
+    color: white;
+  }
+  
+  .footer_last_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    height: 10vh;
+    background-color: #2b3433;
+    margin-top: 50px;
+  }
+  .footer_last_paragraph {
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .footer_last_ul {
+    display: flex;
+    margin-right: 30px;
+  }
+  .footer_last_li {
+    list-style: none;
+    padding: 11px;
+  }
+  .footer_last_list_anchor {
+    text-decoration: none;
+    color: white;
+  }
+  .footer_last_list_anchor:hover{
+    color: red;
+  }
+  
+  /* .....................................FOOTER STYLING END................................... */
+  
+  /* ...................................MOBILE MEDIA QUERY START................................ */
+  
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    /* .............FOR MOBILE...............NAVBAR MEDIA QUERY START.............................. */
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+    }
+    .left-container{
+      justify-content: center;
+      align-items:self-start;
+    }
+    .logo_div {
+      text-align: center;
+      margin: 15px 0;
+    }
+  
+    .logo_anchor {
+    }
+  
+   
+    .searchbar1 {
+      display: flex;
+      text-align: center;
+      flex-direction: row;
+      justify-content: flex-end;
+      /* margin-right: 100px; */
+      background-color: #d38312;
+      /* width: 100vw; */
+      height: 30px;
+  
+      margin-bottom: 10vh;
+    }
+  
+    .searchbar_input {
+      padding: 5px 40px;
+    }
+  
+    .search_button {
+      padding: 3px 6px;
+    }
+    .sign_in_button_div {
+      display: flex;
+  
+    }
+    
+  
+    /* .............FOR MOBILE...............NAVBAR MEDIA QUERY END................................ */
+  
+    /* .............FOR MOBILE...............TOP LIST MEDIA QUERY START............................. */
+    .top_list_div {
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    .top_list_ul{
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .top_list_li {
+      
+    }
+  
+    /* .............FOR MOBILE...............TOP LIST MEDIA QUERY END............................... */
+
+    /* .............FOR MOBILE...............FOOTER MEDIA QUERY START............................... */
+
+  .footer_last_div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* order: -1; */
+  }
+  .footer-last_list_div {
+    display: flex;
+    margin-left: 23px;
+    order: -1;
+  }
+  .footer_last_ul {
+    text-align: center;
+  }
+  .footer_last_list_anchor {
+    font-size: 13px;
+  }
+  .footer_last_paragraph_div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-bottom: 8px;
+    width: 99vw;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+  nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  .top_list_div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top_list_ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* ....................................... */
+
+
+  .footer_paragraph{
+    font-size: 13px;
+  }
+  .footer_last_div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 80px;
+  }
+  
+}
